@@ -26,14 +26,14 @@ class MainActivity : ComponentActivity() {
                         {
                             "name":"Kamalesh",
                             "age":20,
-                            "gender":"MAE"
+                            "gender": "MLE"
                         }
                     """.trimIndent()
 
                     // Reflection
                     val moshi = Moshi.Builder()
                         .add(KotlinJsonAdapterFactory())
-                        .addLast(Person::class.java, EnumJsonAdapter.create(Gender::class.java).withUnknownFallback(Gender.UNKNOWN))
+                        .addLast(Gender::class.java, EnumJsonAdapter.create(Gender::class.java).withUnknownFallback(Gender.UNKNOWN))
                         .build()
 
                     val jsonAdapter = moshi.adapter(Person::class.java)
