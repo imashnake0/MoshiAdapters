@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     val json = """
                         {
-                            "name":"Kamalesh",
+                            "name":"imashnake0",
                             "age":20,
                             "gender": "MLE"
                         }
