@@ -1,2 +1,2 @@
-# MoshiAdapters
-Sample Moshi Adapters
+# Moshi Adapters
+Sample JSON adapters with Kotlin.
