@@ -1,0 +1,2 @@
+# MoshiAdapters
+Sample Moshi Adapters
